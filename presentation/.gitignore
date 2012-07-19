@@ -1,0 +1,16 @@
+*.aux
+*.log
+*.pdf
+*.dvi
+*.bbl
+*.blg
+tmp/*
+*.make
+*.d
+*.fls
+*.temp
+*.toc
+*.out
+TODO
+*.nav
+*.snm
