@@ -11,3 +11,6 @@ set number
 " enable syntax highlighting
 syntax on
 set background=dark
+
+" don't use fancy symbols in statusline
+let g:Powerline_symbols = "compatible"
