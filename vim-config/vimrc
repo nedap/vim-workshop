@@ -15,6 +15,10 @@ set number
 " enable syntax highlighting
 syntax on
 set background=dark
+set t_Co=256
+
+" always show statusbar
+set laststatus=2
 
 " don't use fancy symbols in statusline
 let g:Powerline_symbols = "compatible"
