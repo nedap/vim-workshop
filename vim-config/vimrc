@@ -4,3 +4,10 @@ set nocompatible
 filetype on
 filetype indent on
 filetype plugin on
+
+" show line numbers
+set number
+
+" enable syntax highlighting
+syntax on
+set background=dark
