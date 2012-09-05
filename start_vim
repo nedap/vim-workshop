@@ -1,0 +1,17 @@
+#!/bin/sh
+
+me=$(basename $0)
+mydir=$(dirname $0)
+
+mvim_location=`which mvim`
+gvim_location=`which gvim`
+if [ -n $mvim_location ]; then
+  vim=$mvim_location
+elif [ -n $gvim_location ]; then
+  vim=$gvim_location
+else
+  echo "Could not find gvim or mvim, please install either of them"
+  exit 1
+fi
+
+$vim -u $mydir/vim-config/vimrc $1
