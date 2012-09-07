@@ -63,3 +63,6 @@ else
   colors inkpot
   set t_Co=256
 endif
+
+" bufexplorer: map leader b
+nnoremap <silent> <unique> <leader>b :BufExplorer<CR>
