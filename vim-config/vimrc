@@ -18,8 +18,14 @@ filetype on
 filetype indent on
 filetype plugin on
 
+" laat zien wat je voor commando intiept
+set showcmd
+
 " show line numbers
 set number
+
+" I want to be able to open another file and background current buffer
+set hidden
 
 " enable syntax highlighting
 syntax on
