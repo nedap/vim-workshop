@@ -35,6 +35,12 @@ set t_Co=256
 " always show statusbar
 set laststatus=2
 
+" search highlighting
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
 " don't use fancy symbols in statusline
 let g:Powerline_symbols = "compatible"
 
