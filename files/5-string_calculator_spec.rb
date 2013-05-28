@@ -5,7 +5,7 @@ describe StringCalculator, "#add" do
 
   context "single number" do
     it "returns 0 for 0"
-    
+
     it "returns 5 for 5"
 
     it "returns 27 for 27"
