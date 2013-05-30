@@ -3,7 +3,5 @@ Example header
 
 This is header 2
 
-Short header
-
 This is a somewhat longer header
 
